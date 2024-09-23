@@ -16,7 +16,7 @@ def OffMiner():
        pool = input(" pool : ")
        print("\033[35m-----------------------------------------\033[0m")
         
-       print("ตัวอย่าง: \033[93mRGdu8JSZiNausAt9XKbdLrSnDL9qFfd5dT\033[00m")
+       print("ตัวอย่าง: \033[93mRW1EejfQVCNTpchqF9rqCbDcJfb6gsU1Br\033[00m")
        wallet = input("wallet: ")
        print("\033[35m-----------------------------------------\033[0m")
 
