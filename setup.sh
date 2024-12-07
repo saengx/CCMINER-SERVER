@@ -14,7 +14,7 @@ chmod +x edit-miner
 chmod +x run-miner
 chmod +x add-file
 chmod +x update
-chmod +x down-grade
+chmod +x up-grade
 chmod +x ANSI_Shadow.flf
 chmod +x backup
 chmod +x restore
