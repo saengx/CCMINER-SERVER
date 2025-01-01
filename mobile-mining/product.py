@@ -12,3 +12,9 @@ def product():
     #print("\033[36m\033[0m")
 
     #print(f"\n\033[91mกำลัง Run Mining\033[0m\n")
+
+while True:
+  banneredit()
+  OffMiner()
+  os.system("run-miner")     
+  break
