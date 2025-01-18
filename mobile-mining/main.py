@@ -11,7 +11,7 @@ try:
             ip = loads['ip']
 
     os.system(f"cd setip && wget -N --timeout 20 --connect-timeout=30 -t 2 --no-check-certificate https://raw.githubusercontent.com/Boon-yalit/miner/main/process.json && mv process.json ip.json")
-    time.sleep(2)
+    time.sleep(5)
     from progress.bar import ChargingBar
 except ImportError:
     pip.main(['install', '--user', 'progress'])
