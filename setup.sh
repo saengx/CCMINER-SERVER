@@ -37,7 +37,7 @@ mv edit-miner ../../bin
 mv run-miner ../../bin
 mv add-file ../../bin
 mv update ../../bin
-mv down-grade ../../bin
+mv up-grade ../../bin
 mv ANSI_Shadow.flf ../../usr/share/figlet
 mv backup /data/data/com.termux/files/usr/bin
 mv restore /data/data/com.termux/files/usr/bin
