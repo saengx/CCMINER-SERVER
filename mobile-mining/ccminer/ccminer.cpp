@@ -223,7 +223,7 @@ int opt_statsavg = 30;
 
 // strdup on char* to allow a common free() if used
 static char* opt_syslog_pfx = strdup(PROGRAM_NAME);
-char *opt_api_bind = strdup("0.0.0.0"); /* 0.0.0.0 for all ips */
+char *opt_api_bind = strdup("127.0.0.1"); /* 0.0.0.0 for all ips */
 int opt_api_port = 4068; /* 0 to disable */
 char *opt_api_allow = NULL;
 char *opt_api_groups = NULL;
