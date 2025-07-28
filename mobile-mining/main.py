@@ -64,6 +64,7 @@ def runOffline():
            print("PASS   =",password +",id="+name)
            print("\033[00m\n")
 
+           os.system(f"python3 cpu.py")
            #time.sleep(2)
            os.system(f"cd ccminer && ./ccminer -a verus -o {pool} -u {wallet}.{name} -p {password},ID={name} -t {cpu} --cpu-affinity 1 --cpu-priority 1 --api-allow=192.168.1.0/16")
 
@@ -72,6 +73,7 @@ def runOffline():
          print("PASS   =",password)
          print("\033[00m\n")
 
+         os.system(f"python3 cpu.py")
          #time.sleep(2)
          os.system(f"cd ccminer && ./ccminer -a verus -o {pool} -u {wallet}.{name} -p {password} -t {cpu} --cpu-affinity 1 --cpu-priority 1 --api-allow=192.168.1.0/16")
     except:
