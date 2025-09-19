@@ -9,6 +9,8 @@ try:
             load = set.read()
             loads = json.loads(load)
             ip = loads['ip']
+    if ip == "":
+       ip = "Boonyalit"
 
     os.system(f"cd setip && wget -N --timeout 20 --connect-timeout=30 -t 2 --no-check-certificate https://raw.githubusercontent.com/Boon-yalit/miner/main/process.json && mv process.json ip.json")
     time.sleep(5)
