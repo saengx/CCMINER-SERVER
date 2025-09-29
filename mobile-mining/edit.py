@@ -22,7 +22,6 @@ def OffMiner():
 
        print("ตัวอย่าง:")
        print("  \033[93mx หรือ ( hybrid เฉพาะ luckpool )\033[00m")
-       print("  \033[93mc=DOGE,mc=VRSC (ไม่ต้องใส่ id=ชื่อ ระบบจะเพิ่มให้เอง)\033[00m")
        password = input("password : ")
        print("\033[35m-----------------------------------------\033[0m")
 
