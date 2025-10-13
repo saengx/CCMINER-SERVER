@@ -25,4 +25,4 @@ def banneredit():
     print("\033[1;34;34m")
     os.system("figlet -f big [-EDIT-]")
     print("\033[00m\n")
-    print(f"\n\033[96mDeveloper by PICHET SAENGTEWAN\033[0m\n")
+    print(f"\n\033[96mDeveloper by PICHET SAENGTAWAN\033[0m\n")
