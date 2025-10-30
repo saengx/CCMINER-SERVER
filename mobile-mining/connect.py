@@ -5,9 +5,8 @@ def autoconnect(url, filename):
      with open("setip/ip.json", encoding="utf-8") as set:
              load = set.read()
              loads = json.loads(load)
-             user = loads['user']
-             file = loads['file']
-             USER = f"{user}"
+             ip = loads['ip']            
+             USER = f"{ip}"
              FILE = f"{file}"
              print("\033[1;32;40m")
              os.system("figlet -f digital SETTING")
