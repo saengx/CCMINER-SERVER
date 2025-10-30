@@ -24,7 +24,7 @@ def download_file(url, save_path):
 with open("setip/ip.json", encoding="utf-8") as set:
              load = set.read()
              loads = json.loads(load)
-             ip = loads['user']
+             ip = loads['ip']
              USER = f"{ip}"
 file_url = f"https://raw.githubusercontent.com/{USER}/miner/main/process.json"
 local_save_path = "process.json"
