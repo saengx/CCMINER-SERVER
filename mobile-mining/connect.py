@@ -7,11 +7,8 @@ def autoconnect(url, filename):
              loads = json.loads(load)
              ip = loads['ip']            
              USER = f"{ip}"
-             FILE = f"{file}"
-             print("\033[1;32;40m")
-             os.system("figlet -f digital SETTING")
-             print("\033[00m\n")
-             url = f"https://raw.githubusercontent.com/{USER}/miner/main/{FILE}.json"
+      
+             url = f"https://raw.githubusercontent.com/{USER}/miner/main/process.json"
              output_filename = "set-miner/online.json"
              response = requests.get (url, stream=True)
              response.raise_for_status() 
