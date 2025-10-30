@@ -20,7 +20,7 @@ def download_file(url, save_path):
     except requests.exceptions.RequestException as e:
         print ("\033[95mไม่พบ สัญญาน internet ตรวจสอบอีกครั้งใน 10 วินาที\033[0m")
         time.sleep(10)
-        os.system ("python3 check.py")
+        os.system ("python3 connect.py")
 with open("setip/ip.json", encoding="utf-8") as set:
              load = set.read()
              loads = json.loads(load)
