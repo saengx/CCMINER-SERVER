@@ -20,6 +20,7 @@ chmod +x backup
 chmod +x restore
 chmod +x install.txt
 chmod +x bash.bashrc
+chmod +x auto
 
 apt-get install python3 -y
 apt-get install pip -y
@@ -42,13 +43,12 @@ mv run-miner ../../bin
 mv add-file ../../bin
 mv update ../../bin
 mv up-grade ../../bin
+mv auto ../../bin
 mv ANSI_Shadow.flf ../../usr/share/figlet
 mv backup /data/data/com.termux/files/usr/bin
 mv restore /data/data/com.termux/files/usr/bin
 mv install.txt /storage/emulated/0/download
 mv bash.bashrc ../../etc
-run-miner
-
 
 cd && cd ../etc/mobile-mining/ccminer
 chmod +x build.sh
